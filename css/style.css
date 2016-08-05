@@ -1,0 +1,36 @@
+body {
+	background: #000;
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+h4 {
+	margin-bottom: 0;
+	color: #cecece;
+	font-size: 40px;
+	font-weight: 600;
+}
+.clockDigits {
+	margin-top: 200px;
+	font-size: 84px;
+	font-weight: 900;
+}
+.btn {
+	margin-top: 15px;
+	font-size: 30px;
+}
+.splitDigits {
+	text-align: center;
+}
+/* ===================== RESPONSIVE ======================= */
+@media screen and (max-width: 640px) {
+	.clockDigits {
+		font-size: 60px;
+	}
+}
+@media screen and (max-width: 470px) {
+	.clockDigits {
+		font-size: 40px;
+	}
+}
